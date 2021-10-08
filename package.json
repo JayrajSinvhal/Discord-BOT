@@ -1,0 +1,23 @@
+{
+  "name": "bruh",
+  "version": "1.0.0",
+  "description": "This is my Try",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc -w --skipLibCheck",
+    "dev": "nodemon index.ts",
+    "nodemon": "npm install -g nodemon"
+  },
+  "author": "Jayraj Sinvhal",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/rest": "^0.1.0-canary.0",
+    "discord-api-types": "^0.23.1",
+    "discord.js": "^13.1.0"
+  },
+  "devDependencies": {
+    "@types/nodemon": "^1.19.1",
+    "nodemon": "^2.0.12"
+  }
+}
